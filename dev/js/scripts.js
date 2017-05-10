@@ -6,7 +6,7 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'http://website.com/css/stylesheet.css';
+    link.href = 'https://github.com/wyoikawa/teste_pmweb/blob/master/prod/js/scripts.min.js';
     link.media = 'all';
     head.appendChild(link);
 }
