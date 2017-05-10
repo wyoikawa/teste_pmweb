@@ -2,11 +2,11 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
-    // COMPILA O SASS PARA CSS
-    sass: {                              
+    // COMPILA O LESS PARA CSS
+    less: {                              
       file: {                            
         files: {                         
-          'dev/css/styles.css': 'dev/sass/styles.sass'
+          'dev/css/styles.css': 'dev/less/styles.less'
         }
       }
     },
@@ -32,10 +32,10 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['sass', 'cssmin', 'uglify']);
+  grunt.registerTask('default', ['less', 'cssmin', 'uglify']);
 
 };

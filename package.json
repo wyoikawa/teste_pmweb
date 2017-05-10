@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "grunt-contrib-less": "^1.4.1",
     "grunt-contrib-sass": "^1.0.0"
   },
   "scripts": {
