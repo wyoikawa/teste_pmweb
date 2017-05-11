@@ -1,6 +1,58 @@
-.color-header {
+.mcolor-header {
   background-color: #f5534b !important;
 }
-.mcolor-cliente-principal-bg .mcolor-label-text2 {
+.mcolor-cliente-principal-text {
   color: #f5534b;
+}
+.ultimaBusca:not(:first-child) .ultima-busca-label {
+  color: #f5534b;
+}
+.ultimaBusca:not(:first-child) .ultima-busca-label:hover {
+  color: #e7170d;
+}
+#caminho.mcolor-label-text2 {
+  color: #f5534b;
+}
+#caminho.mcolor-label-text2 .caminho-pagina-atual {
+  text-decoration: none;
+}
+.page-content {
+  background: none;
+  box-shadow: none !important;
+  width: 94%;
+  margin: 0 auto;
+}
+.page-content #listagemHoteisContent {
+  margin: 0 -15px;
+}
+.page-content #listagemHoteisContent .itemHotel {
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+  background: #FFFFFF;
+}
+.page-content #listagemHoteisContent .itemHotel:nth-child(1) {
+  margin-top: 0;
+}
+.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel {
+  width: 100%;
+}
+.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel .slide img {
+  width: 100%;
+}
+.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel .img-hotel-arrow-right {
+  left: auto;
+  right: 0;
+}
+.page-content #listagemHoteisContent .itemHotel .itemHotelContent {
+  clear: both;
+  margin-left: 0;
+}
+#buscarNovamente {
+  width: 100%;
+  float: left;
+}
+footer {
+  width: 100%;
+  float: left;
 }
