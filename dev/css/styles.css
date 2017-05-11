@@ -1,53 +1,54 @@
-.mcolor-header {
+/*.mcolor-header {
   background-color: #f5534b !important;
-}
-.mcolor-cliente-principal-text {
+}*/
+
+/*.mcolor-cliente-principal-text {
   color: #f5534b;
 }
 .ultimaBusca:not(:first-child) .ultima-busca-label {
   color: #f5534b;
-}
-.ultimaBusca:not(:first-child) .ultima-busca-label:hover {
+}*/
+/*.ultimaBusca:not(:first-child) .ultima-busca-label:hover {
   color: #e7170d;
-}
-#caminho.mcolor-label-text2 {
+}*/
+/*#caminho.mcolor-label-text2 {
   color: #f5534b;
-}
-#caminho.mcolor-label-text2 .caminho-pagina-atual {
+}*/
+/*#caminho.mcolor-label-text2 .caminho-pagina-atual {
   text-decoration: none;
-}
-.page-content {
+}*/
+/*.page-content {
   background: none;
   box-shadow: none !important;
   width: 94%;
   margin: 0 auto;
-}
-.page-content #listagemHoteisContent {
+}*/
+/*.page-content #listagemHoteisContent {
   margin: 0 -15px;
-}
-.page-content #listagemHoteisContent .itemHotel {
+}*/
+/*.page-content #listagemHoteisContent .itemHotel {
   width: 33.33%;
   float: left;
   padding: 20px;
   background: #FFFFFF;
-}
-.page-content #listagemHoteisContent .itemHotel:nth-child(1) {
+}*/
+/*.page-content #listagemHoteisContent .itemHotel:nth-child(1) {
   margin-top: 0;
-}
-.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel {
+}*/
+/*.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel {
   width: 100%;
-}
-.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel .slide img {
+}*/
+/*.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel .slide img {
   width: 100%;
-}
-.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel .img-hotel-arrow-right {
+}*/
+/*.page-content #listagemHoteisContent .itemHotel .slider-imagens-hotel .img-hotel-arrow-right {
   left: auto;
   right: 0;
-}
-.page-content #listagemHoteisContent .itemHotel .itemHotelContent {
+}*/
+/*.page-content #listagemHoteisContent .itemHotel .itemHotelContent {
   clear: both;
   margin-left: 0;
-}
+}*/
 #buscarNovamente {
   width: 100%;
   float: left;
