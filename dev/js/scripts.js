@@ -32,13 +32,20 @@ $(".page-content #listagemHoteisContent .itemHotel").css({
 $("#navTop").css("background-color", "#f5534b");
 $(".mcolor-label-text2, .mcolor-cliente-principal-text, .mcolor-cliente-principal-text, .ultimaBusca:not(:first-child) .ultima-busca-label, #caminho.mcolor-label-text2, .busca-field .mcolor-label-text").css("color", "#f5534b");
 $(".busca-flutuante-field-icon .mcolor-label-text2").css("color", "#f5534b");
-$("#busca-btn").css("background", "#F6534C");
+$("#busca-btn.mcolor-action-btn").css("background-color", "#F6534C");
+$("#busca-btn.mcolor-action-btn").hover(function() {
+	$(this).attr("style", "background-color: #e64c45 !important");
+});
 $(".bubblingG2 span").css("background", "#F6534C");
-$(".ultimaBusca:not(:first-child) .ultima-busca-label:hover, #busca-btn:hover").css("color", "#e7170d");
-$("#destino .bloco #varBuscaNomeHotel:hover, #datas:hover, #adultos:hover, #criancas:hover, #modificarBusca:hover").css("background-color", "#f5534b");
+$("#destino, #datas, #adultos, #criancas, #modificarBusca").hover(function() {
+	$(this).css("color", "#c74f4a");
+}, function(){
+	$(this).css("color", "#FFFFFF");
+});
 $("#caminho.mcolor-label-text2 .caminho-pagina-atual").css("text-decoration", "none");
 $(".mcolor-busca-bright").css("background", "#493E38");
-$(".bloco-seletor-adulto-selected, .bloco-seletor-crianca-selected").css("background", "#483F38 !important")
+$(".bloco-seletor-adulto, .bloco-seletor-crianca").css("background-color", "#303131");
+$(".bloco-seletor-adulto.bloco-seletor-adulto-selected, .bloco-seletor-crianca.bloco-seletor-crianca-selected").attr("style", "background-color: #483F38 !important");
 $(".mcolor-cliente-principal-bg").css("background", "#302C29");
 $(".mcolor-busca-dark").css("background", "#201F1D");
 $("#busca-promocode-label").css("color", "#FFFFFF");
@@ -53,6 +60,9 @@ $(".page-content #listagemHoteisContent .itemHotel .itemHotelContent").css({
 	"clear": "both",
 	"margin-left": "0"
 });
+$("#busca-calendario .dia-semana").attr("style", "color: #f5534b !important");
+$(".gridDatas .blocoData").css("width", "50px");
+
 $("#buscarNovamente").css({
 	"width": "100%",
 	"float": "left"
@@ -62,6 +72,15 @@ $("footer").css({
 	"float": "left"
 });
 
+$("#busca-calendario").css({
+	"width": "450px"
+});
+$("#calendario-1").css({
+	"width": "100%",
+	"margin-left": "0"
+});
+$("#calendar-2").remove();
+
 
 // -------------------  MONTA LINK DA MODAL
 
@@ -69,7 +88,7 @@ document.write("<span><a href='#' onclick='abreModal()'>Ver promoções do hotel
 
 // ------------------ MONTA MODAL
 
-document.write("<div class=''")
+document.write("<div class=''></div>")
 
 function abreModal(codigoHotel) {
 	var baseURL = "http://pmweb.agencia.pmweb.com.br/teste-cro/promocoes/" + codigoHotel + ".json";
